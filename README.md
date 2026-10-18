@@ -1,14 +1,27 @@
-# ???? | Yuanshen Qidong
+# 元神启动 | MetadataBoost
 
-> **??????**?[cat-yummi-dspmod/DSP-YuanshenQidong](https://github.com/cat-yummi-dspmod/DSP-YuanshenQidong)???? `DSP-MetadataBoost` ???????????
+GitHub 仓库：**[cat-yummi-dspmod/DSP-MetadataBoost](https://github.com/cat-yummi-dspmod/DSP-MetadataBoost)**
 
-??????????? YummiUIHarness?????????????????????????????????????
+在悠米面板（需 [YummiUIHarness](https://github.com/cat-yummi-dspmod/DSP-YummiUIHarness)）的「元数据作弊」页提供矩阵增量按钮，与 **MetadataNoCost（元数据老赖）** 共用该页。
 
-On the shared **Metadata Cheats** page (requires YummiUIHarness), buttons quickly boost Metadata statistics.
+## 功能
 
-## ?? Features
+- 「进入游戏后自动打开本页」（`General/AutoOpenOnEnter`）
+- **F9** 打开/关闭悠米面板
+- 1 万 / 1 亿 / 10 亿矩阵（生产与消耗等量增加）
 
-- ??????????????? `General/AutoOpenOnEnter`??**F9** ????
-- 1 ? / 1 ? / 10 ?????
+## Features
 
-See [DSP-YuanshenQidong](https://github.com/cat-yummi-dspmod/DSP-YuanshenQidong) for full documentation.
+- Open this page after entering a game (`General/AutoOpenOnEnter`)
+- **F9** toggles the Yummi panel
+- 10k / 100M / 1B matrix buttons
+
+## 依赖
+
+- BepInEx、`cat_yummi-YummiUIHarness`
+
+## Changelog
+
+### 0.0.0
+
+- 初始发布

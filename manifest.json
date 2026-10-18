@@ -2,7 +2,7 @@
   "name": "MetadataBoost",
   "version_number": "0.0.0",
   "website_url": "https://github.com/cat-yummi-dspmod/DSP-MetadataBoost",
-  "description": "Quickly boost Metadata production from a page in the Yummi panel (F9). | 在 Yummi 面板中快速增加元数据生产（F9）",
+  "description": "MetadataBoost: boost Metadata matrices on the Yummi panel (F9). | 元神启动：悠米面板 (F9) 快速增加元数据矩阵。",
   "dependencies": [
     "xiaoye97-BepInEx-5.4.22",
     "cat_yummi-YummiUIHarness-0.0.0"

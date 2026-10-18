@@ -11,7 +11,7 @@ namespace MetadataBoost
     public class MetadataBoost : BaseUnityPlugin
     {
         public const string PLUGIN_GUID = "com.yummi.dsp.metadataboost";
-        public const string PLUGIN_NAME = "元神启动 (Metadata Boost)";
+        public const string PLUGIN_NAME = "元神启动";
         public const string PLUGIN_VERSION = "0.0.0";
         public const string PageKey = "metadata_cheats";
         public const string PageTitleZh = "元数据作弊";
