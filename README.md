@@ -2,7 +2,7 @@
 
 GitHub 仓库：**[cat-yummi-dspmod/DSP-MetadataBoost](https://github.com/cat-yummi-dspmod/DSP-MetadataBoost)**
 
-在悠米面板（需 [YummiUIHarness](https://github.com/cat-yummi-dspmod/DSP-YummiUIHarness)）的「元数据作弊」页提供矩阵增量按钮，与 **MetadataNoCost（元数据老赖）** 共用该页。
+在悠米面板（需 [YummiUIPanel](https://github.com/cat-yummi-dspmod/DSP-YummiUIPanel)）的「元数据作弊」页提供矩阵增量按钮，与 **MetadataNoCost（元数据老赖）** 共用该页。
 
 ## 功能
 
@@ -18,7 +18,7 @@ GitHub 仓库：**[cat-yummi-dspmod/DSP-MetadataBoost](https://github.com/cat-yu
 
 ## 依赖
 
-- BepInEx、`cat_yummi-YummiUIHarness`
+- BepInEx、`cat_yummi-YummiUIPanel`
 
 ## Changelog
 

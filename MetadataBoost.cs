@@ -2,12 +2,12 @@ using BepInEx;
 using BepInEx.Configuration;
 using BepInEx.Logging;
 using HarmonyLib;
-using YummiUIHarness;
+using YummiUIPanel;
 
 namespace MetadataBoost
 {
     [BepInPlugin(PLUGIN_GUID, PLUGIN_NAME, PLUGIN_VERSION)]
-    [BepInDependency(UIHarness.Guid)]
+    [BepInDependency(UIPanel.Guid)]
     public class MetadataBoost : BaseUnityPlugin
     {
         public const string PLUGIN_GUID = "com.yummi.dsp.metadataboost";
@@ -29,7 +29,7 @@ namespace MetadataBoost
             AutoOpenOnEnter = Config.Bind("General", "AutoOpenOnEnter", true,
                 "Open this page in the Yummi panel after entering a game. | 进入游戏后自动打开 Yummi 面板的本页。");
 
-            UIHarness.RegisterPage(PageKey, PageTitleZh, PageTitleEn)
+            UIPanel.RegisterPage(PageKey, PageTitleZh, PageTitleEn)
                 .AddCheckbox(AutoOpenOnEnter, "进入游戏后自动打开本页", "Open this page after entering game")
                 .AddLabel(
                     "为 6 种矩阵各增加等量的生产和消耗，可用元数据不变。F9 打开/关闭本页。",

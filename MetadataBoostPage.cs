@@ -1,6 +1,6 @@
 using HarmonyLib;
 using UnityEngine;
-using YummiUIHarness;
+using YummiUIPanel;
 
 namespace MetadataBoost
 {
@@ -18,7 +18,7 @@ namespace MetadataBoost
             {
                 return;
             }
-            UIHarness.OpenPage(MetadataBoost.PageKey);
+            UIPanel.OpenPage(MetadataBoost.PageKey);
         }
 
         [HarmonyPostfix]
@@ -27,7 +27,7 @@ namespace MetadataBoost
         {
             if (Input.GetKeyDown(KeyCode.F9) && !VFInput.inputing)
             {
-                UIHarness.TogglePage(MetadataBoost.PageKey);
+                UIPanel.TogglePage(MetadataBoost.PageKey);
             }
         }
 
