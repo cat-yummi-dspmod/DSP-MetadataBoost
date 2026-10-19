@@ -2,7 +2,7 @@ using BepInEx;
 using BepInEx.Configuration;
 using BepInEx.Logging;
 using HarmonyLib;
-using YummiUIPanel;
+using CatUIPanel;
 
 namespace MetadataBoost
 {
@@ -12,7 +12,7 @@ namespace MetadataBoost
     {
         public const string PLUGIN_GUID = "com.yummi.dsp.metadataboost";
         public const string PLUGIN_NAME = "元神启动";
-        public const string PLUGIN_VERSION = "0.0.0";
+        public const string PLUGIN_VERSION = "0.0.1";
         public const string PageKey = "metadata_cheats";
         public const string PageTitleZh = "元数据作弊";
         public const string PageTitleEn = "Metadata Cheats";
@@ -27,7 +27,7 @@ namespace MetadataBoost
         {
             Log = Logger;
             AutoOpenOnEnter = Config.Bind("General", "AutoOpenOnEnter", true,
-                "Open this page in the Yummi panel after entering a game. | 进入游戏后自动打开 Yummi 面板的本页。");
+                "Open this page in the Cat panel after entering a game. | 进入游戏后自动打开猫猫面板的本页。");
 
             UIPanel.RegisterPage(PageKey, PageTitleZh, PageTitleEn)
                 .AddCheckbox(AutoOpenOnEnter, "进入游戏后自动打开本页", "Open this page after entering game")

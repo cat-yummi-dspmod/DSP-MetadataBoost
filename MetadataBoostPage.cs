@@ -1,6 +1,6 @@
 using HarmonyLib;
 using UnityEngine;
-using YummiUIPanel;
+using CatUIPanel;
 
 namespace MetadataBoost
 {
